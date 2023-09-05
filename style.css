@@ -1,0 +1,30 @@
+.body{
+  background-color: blueviolet;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#form{
+  background-color: aliceblue;
+  width: 25%;
+  margin: 120px auto;
+  padding:50px ;
+  box-shadow: 10px 10px 5px rgb(206, 58, 95);
+  border-radius: 20px;
+}
+#btn{
+  margin-top: 2em;
+  align-self: center;
+  padding: 0.7em;
+  padding-left: 1em;
+  padding-right: 1em;
+  border-radius: 10px;
+  border: none;
+  color: black;
+  transition: .4s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+@media screen and (max-width=700px ) {
+  #form{
+    width: 65%;
+    padding: 40px;
+  }
+}
